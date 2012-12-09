@@ -35,3 +35,11 @@ pages through it.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120102-1
++ Revision: 758888
+- texlive-happy4th
+- texlive-happy4th
+
