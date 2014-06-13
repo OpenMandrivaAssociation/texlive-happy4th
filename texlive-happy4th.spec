@@ -6,7 +6,7 @@
 # catalog-version 20120102
 Name:		texlive-happy4th
 Version:	20120102
-Release:	5
+Release:	6
 Summary:	A firework display in obfuscated TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/happy4th
