@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version 20120102
 Name:		texlive-happy4th
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	A firework display in obfuscated TeX
 Group:		Publishing
