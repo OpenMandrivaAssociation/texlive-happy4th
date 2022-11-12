@@ -1,18 +1,12 @@
-# revision 25020
-# category Package
-# catalog-ctan /macros/plain/contrib/happy4th
-# catalog-date 2012-01-03 17:38:40 +0100
-# catalog-license pd
-# catalog-version 20120102
 Name:		texlive-happy4th
-Version:	20190228
+Version:	25020
 Release:	1
 Summary:	A firework display in obfuscated TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/happy4th
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/happy4th.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/happy4th.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/happy4th.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/happy4th.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,18 +22,10 @@ pages through it.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120102-1
-+ Revision: 758888
-- texlive-happy4th
-- texlive-happy4th
-
