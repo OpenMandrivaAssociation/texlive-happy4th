@@ -1,6 +1,6 @@
 Name:		texlive-happy4th
 Version:	25020
-Release:	1
+Release:	2
 Summary:	A firework display in obfuscated TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/happy4th
